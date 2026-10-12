@@ -1,0 +1,151 @@
+{
+  "created_utc": "2026-10-10T18:23:59.574694+00:00",
+  "source_url": "https://huggingface.co/datasets/lmarena-ai/arena-human-preference-140k",
+  "counts": {
+    "source_comparisons": 135634,
+    "non_english_or_unknown_comparisons": 64459,
+    "later_evaluation_english_comparisons": 13416,
+    "english_first_evaluation_comparisons": 57759,
+    "comparisons_with_requested_family": 40715,
+    "candidate_responses": 52179,
+    "removed_explicit_identity_response": 366,
+    "removed_non_text_or_malformed_content": 15,
+    "removed_duplicate_model_prompt_response": 58
+  },
+  "cleaned_family_counts": {
+    "gemini": 17269,
+    "claude": 23996,
+    "qwen": 10475
+  },
+  "candidate_model_counts": {
+    "gemini-2.5-pro": 3756,
+    "claude-3-7-sonnet-20250219-thinking-32k": 3082,
+    "gemini-2.5-flash-preview-04-17": 2199,
+    "claude-sonnet-4-20250514": 3387,
+    "qwen-max-2025-01-25": 2003,
+    "qwen3-30b-a3b": 2306,
+    "gemini-2.5-flash": 4046,
+    "qwen3-235b-a22b-no-thinking": 3839,
+    "claude-3-7-sonnet-20250219": 3043,
+    "claude-opus-4-20250514-thinking-16k": 2377,
+    "claude-3-5-sonnet-20241022": 3080,
+    "gemini-2.0-flash-001": 2909,
+    "claude-sonnet-4-20250514-thinking-32k": 2209,
+    "claude-3-5-haiku-20241022": 2852,
+    "qwen3-235b-a22b": 2126,
+    "claude-opus-4-20250514": 4234,
+    "gemini-2.5-flash-lite-preview-06-17-thinking": 2078,
+    "gemini-2.5-pro-preview-05-06": 1415,
+    "gemini-2.0-flash-thinking-exp-01-21": 202,
+    "qwen3-235b-a22b-instruct-2507": 263,
+    "gemini-2.5-pro-preview-03-25": 772,
+    "qwen3-coder-480b-a35b-instruct": 1
+  },
+  "cleaned_model_counts": {
+    "gemini-2.5-pro": 3736,
+    "claude-3-7-sonnet-20250219-thinking-32k": 3053,
+    "gemini-2.5-flash-preview-04-17": 2186,
+    "claude-sonnet-4-20250514": 3338,
+    "qwen-max-2025-01-25": 1986,
+    "qwen3-30b-a3b": 2291,
+    "gemini-2.5-flash": 4025,
+    "qwen3-235b-a22b-no-thinking": 3817,
+    "claude-3-7-sonnet-20250219": 3020,
+    "claude-opus-4-20250514-thinking-16k": 2348,
+    "claude-3-5-sonnet-20241022": 3053,
+    "gemini-2.0-flash-001": 2886,
+    "claude-sonnet-4-20250514-thinking-32k": 2184,
+    "claude-3-5-haiku-20241022": 2817,
+    "qwen3-235b-a22b": 2118,
+    "claude-opus-4-20250514": 4183,
+    "gemini-2.5-flash-lite-preview-06-17-thinking": 2063,
+    "gemini-2.5-pro-preview-05-06": 1402,
+    "gemini-2.0-flash-thinking-exp-01-21": 200,
+    "qwen3-235b-a22b-instruct-2507": 262,
+    "gemini-2.5-pro-preview-03-25": 771,
+    "qwen3-coder-480b-a35b-instruct": 1
+  },
+  "balanced_model_versions": {
+    "claude": "claude-opus-4-20250514",
+    "gemini": "gemini-2.5-flash",
+    "qwen": "qwen3-235b-a22b-no-thinking"
+  },
+  "balanced_per_family": 3000,
+  "balanced_total": 9000,
+  "selection": "SHA-256 order of seed=448|example_id, first N per chosen model",
+  "split_groups": 38186,
+  "largest_split_group": 57,
+  "source_files": [
+    {
+      "file": "train-00000-of-00007.parquet",
+      "bytes": 231962042,
+      "rows": 19377,
+      "sha256": "7b871a964dc9b238fe0d59f817dbe1a7a56934e23ec4d989f86e6891e5a891cf"
+    },
+    {
+      "file": "train-00001-of-00007.parquet",
+      "bytes": 232661776,
+      "rows": 19377,
+      "sha256": "0cd29a6e3261159f41a69b28cd7f08c0bbbc1ef08ba18438d386a1b0c144af8a"
+    },
+    {
+      "file": "train-00002-of-00007.parquet",
+      "bytes": 230389901,
+      "rows": 19376,
+      "sha256": "c633264fe8f0fa26cc9aa49961a75dc428791f70c7a476cbed766963b88bee24"
+    },
+    {
+      "file": "train-00003-of-00007.parquet",
+      "bytes": 230215643,
+      "rows": 19376,
+      "sha256": "5bcf04c9f4488006a4a7ee944d886ee123e118b7f7d2db04b4ff6dbd8125e6b0"
+    },
+    {
+      "file": "train-00004-of-00007.parquet",
+      "bytes": 229291118,
+      "rows": 19376,
+      "sha256": "2c50b4b3f6a5c02d660f5a70d5006332ddc00f5eb21f8e4d92bde3856647969b"
+    },
+    {
+      "file": "train-00005-of-00007.parquet",
+      "bytes": 231971298,
+      "rows": 19376,
+      "sha256": "de59f74dce7477beaec55936b31a88537b93c5cbb4b483cfc6879a6862ce5e3b"
+    },
+    {
+      "file": "train-00006-of-00007.parquet",
+      "bytes": 227311927,
+      "rows": 19376,
+      "sha256": "1a32a1c6934ebcaa3019643a08fb57563ee0a9be282d3222def3c572a49e9f4c"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "claude_gemini_qwen_all.parquet",
+      "rows": 51740,
+      "bytes": 77588222,
+      "sha256": "ee16c974226bfd3522fa667efaaf613beacb3c5a373eb5ed31d84f7c38037a95",
+      "previous_zstd_sha256": "5e2a10ea8110e821ea0c733b5c521c44a4704d0492273fc74dbb0422ca713afd",
+      "compression": "gzip"
+    },
+    {
+      "file": "claude_gemini_qwen_balanced.parquet",
+      "rows": 9000,
+      "bytes": 15991771,
+      "sha256": "b05f68e3551837acdcdb217079beb6e8835f856ea8da754dd230ce71da5458d9",
+      "previous_zstd_sha256": "4a59cf2518a6bbfac084e29aafc6d79474414ffd1e2659e84dec025ba9083f90",
+      "compression": "gzip"
+    }
+  ],
+  "validation": {
+    "parquet_round_trip": true,
+    "unique_example_ids": true,
+    "balanced_counts": true,
+    "original_sha256_unchanged": true,
+    "balanced_is_subset": true,
+    "split_group_consistency": true,
+    "independent_source_pair_checks": 9,
+    "gzip_reencoding_preserves_all_values": true
+  },
+  "encoding_note": "Losslessly re-encoded from Zstandard to gzip for compatibility with the installed R Arrow build; data rows, ordering, and fields are unchanged."
+}

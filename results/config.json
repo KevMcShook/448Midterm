@@ -1,0 +1,21 @@
+{
+  "data": "claude_gemini_qwen_balanced.parquet",
+  "seed": 448,
+  "epochs": 12,
+  "patience": 3,
+  "batch_size": 64,
+  "embedding_dim": 64,
+  "hidden_dim": 64,
+  "dropout": 0.3,
+  "learning_rate": 0.001,
+  "prompt_limit": 128,
+  "response_limit": 256,
+  "threads": 4,
+  "data_sha256": "b05f68e3551837acdcdb217079beb6e8835f856ea8da754dd230ce71da5458d9",
+  "versions": {
+    "torch": "2.14.1+cpu",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scikit_learn": "1.9.1"
+  }
+}

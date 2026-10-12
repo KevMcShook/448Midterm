@@ -1,0 +1,29 @@
+{
+  "train": {
+    "total": 6299,
+    "class_counts": {
+      "claude": 2099,
+      "qwen": 2100,
+      "gemini": 2100
+    },
+    "groups": 5974
+  },
+  "validation": {
+    "total": 1350,
+    "class_counts": {
+      "qwen": 450,
+      "claude": 450,
+      "gemini": 450
+    },
+    "groups": 1294
+  },
+  "test": {
+    "total": 1351,
+    "class_counts": {
+      "qwen": 450,
+      "gemini": 450,
+      "claude": 451
+    },
+    "groups": 1291
+  }
+}

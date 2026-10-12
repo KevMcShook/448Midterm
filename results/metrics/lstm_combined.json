@@ -1,0 +1,192 @@
+{
+  "experiment": "lstm_combined",
+  "architecture": "lstm",
+  "mode": "combined",
+  "seed": 448,
+  "best_epoch": 11,
+  "epochs_run": 12,
+  "train_seconds": 80.79654502099947,
+  "parameter_count": 1313475,
+  "validation": {
+    "loss": 0.4406550594612404,
+    "accuracy": 0.8562962962962963,
+    "macro_f1": 0.8563678167788743
+  },
+  "test": {
+    "loss": 0.4574861018239437,
+    "accuracy": 0.847520355292376,
+    "macro_f1": 0.8475932098552373
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.0321193760416776,
+      "validation": {
+        "loss": 0.9516447286252622,
+        "accuracy": 0.5851851851851851,
+        "macro_f1": 0.5790660159287269
+      },
+      "elapsed_seconds": 20.976263951000874
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.8908596392339478,
+      "validation": {
+        "loss": 0.7620015017191569,
+        "accuracy": 0.7222222222222222,
+        "macro_f1": 0.7198188620938444
+      },
+      "elapsed_seconds": 26.859215988999495
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.7243401480867931,
+      "validation": {
+        "loss": 0.7250580240178991,
+        "accuracy": 0.7459259259259259,
+        "macro_f1": 0.744312565255082
+      },
+      "elapsed_seconds": 32.74832288700054
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.6484387205941163,
+      "validation": {
+        "loss": 0.6066392531218352,
+        "accuracy": 0.7844444444444445,
+        "macro_f1": 0.7842018965375891
+      },
+      "elapsed_seconds": 37.97573216999808
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.6003819860661099,
+      "validation": {
+        "loss": 0.6616582563188341,
+        "accuracy": 0.7718518518518519,
+        "macro_f1": 0.7708466396990987
+      },
+      "elapsed_seconds": 43.23453511199841
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.5895250958665096,
+      "validation": {
+        "loss": 0.6007064935896131,
+        "accuracy": 0.7955555555555556,
+        "macro_f1": 0.7928966529941261
+      },
+      "elapsed_seconds": 48.792441100998985
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.4914648977229095,
+      "validation": {
+        "loss": 0.5097049268086752,
+        "accuracy": 0.82,
+        "macro_f1": 0.819482864689352
+      },
+      "elapsed_seconds": 54.15679615599947
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.4317907517695166,
+      "validation": {
+        "loss": 0.5417243162790935,
+        "accuracy": 0.8125925925925926,
+        "macro_f1": 0.8113780329102789
+      },
+      "elapsed_seconds": 59.42003884699807
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.40683364152794776,
+      "validation": {
+        "loss": 0.5336866856062854,
+        "accuracy": 0.825925925925926,
+        "macro_f1": 0.8252653238033355
+      },
+      "elapsed_seconds": 64.66444496400072
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.3422490614172882,
+      "validation": {
+        "loss": 0.4581835375891791,
+        "accuracy": 0.84,
+        "macro_f1": 0.8394949975832248
+      },
+      "elapsed_seconds": 69.88936865399955
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.3254474320285262,
+      "validation": {
+        "loss": 0.4406550594612404,
+        "accuracy": 0.8562962962962963,
+        "macro_f1": 0.8563678167788743
+      },
+      "elapsed_seconds": 75.09877656299795
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.2720056506901965,
+      "validation": {
+        "loss": 0.49414525597183795,
+        "accuracy": 0.8533333333333334,
+        "macro_f1": 0.8531507295957113
+      },
+      "elapsed_seconds": 80.35346233100063
+    }
+  ],
+  "confusion_matrix": [
+    [
+      393,
+      35,
+      23
+    ],
+    [
+      49,
+      373,
+      28
+    ],
+    [
+      34,
+      37,
+      379
+    ]
+  ],
+  "classification_report": {
+    "claude": {
+      "precision": 0.8256302521008403,
+      "recall": 0.8713968957871396,
+      "f1-score": 0.8478964401294499,
+      "support": 451.0
+    },
+    "gemini": {
+      "precision": 0.8382022471910112,
+      "recall": 0.8288888888888889,
+      "f1-score": 0.8335195530726257,
+      "support": 450.0
+    },
+    "qwen": {
+      "precision": 0.8813953488372093,
+      "recall": 0.8422222222222222,
+      "f1-score": 0.8613636363636363,
+      "support": 450.0
+    },
+    "accuracy": 0.847520355292376,
+    "macro avg": {
+      "precision": 0.848409282709687,
+      "recall": 0.8475026689660835,
+      "f1-score": 0.8475932098552373,
+      "support": 1351.0
+    },
+    "weighted avg": {
+      "precision": 0.848392421843211,
+      "recall": 0.847520355292376,
+      "f1-score": 0.847593434303997,
+      "support": 1351.0
+    }
+  }
+}

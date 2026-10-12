@@ -1,0 +1,17 @@
+{
+  "vocabulary_size": 20000,
+  "truncation": {
+    "train": {
+      "prompt_fraction_truncated": 0.12573424353071916,
+      "response_fraction_truncated": 0.7731385934275282
+    },
+    "validation": {
+      "prompt_fraction_truncated": 0.1237037037037037,
+      "response_fraction_truncated": 0.7874074074074074
+    },
+    "test": {
+      "prompt_fraction_truncated": 0.11398963730569948,
+      "response_fraction_truncated": 0.7698001480384901
+    }
+  }
+}

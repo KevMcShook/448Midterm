@@ -1,0 +1,74 @@
+{
+  "cnn_output": {
+    "accuracy_95_interval": [
+      0.9181532383523029,
+      0.9471372356418891
+    ],
+    "macro_f1_95_interval": [
+      0.9180701487510102,
+      0.9471239811057202
+    ],
+    "bootstrap_repetitions": 2000,
+    "resampling_unit": "split_group"
+  },
+  "lstm_output": {
+    "accuracy_95_interval": [
+      0.8274564488407397,
+      0.8673544583640383
+    ],
+    "macro_f1_95_interval": [
+      0.8267540910292763,
+      0.866330009113966
+    ],
+    "bootstrap_repetitions": 2000,
+    "resampling_unit": "split_group"
+  },
+  "cnn_input": {
+    "accuracy_95_interval": [
+      0.3121309931838426,
+      0.361627969650483
+    ],
+    "macro_f1_95_interval": [
+      0.2917835354638784,
+      0.3425062198207753
+    ],
+    "bootstrap_repetitions": 2000,
+    "resampling_unit": "split_group"
+  },
+  "lstm_input": {
+    "accuracy_95_interval": [
+      0.3013390384311036,
+      0.35311572700296734
+    ],
+    "macro_f1_95_interval": [
+      0.30124771808498135,
+      0.3528751994665812
+    ],
+    "bootstrap_repetitions": 2000,
+    "resampling_unit": "split_group"
+  },
+  "cnn_combined": {
+    "accuracy_95_interval": [
+      0.9267710768660546,
+      0.9526985821758311
+    ],
+    "macro_f1_95_interval": [
+      0.9266473946443535,
+      0.9526729565446844
+    ],
+    "bootstrap_repetitions": 2000,
+    "resampling_unit": "split_group"
+  },
+  "lstm_combined": {
+    "accuracy_95_interval": [
+      0.8272326048461899,
+      0.8672668406661695
+    ],
+    "macro_f1_95_interval": [
+      0.8271601999747985,
+      0.8672402397252799
+    ],
+    "bootstrap_repetitions": 2000,
+    "resampling_unit": "split_group"
+  }
+}

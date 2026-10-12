@@ -1,0 +1,16 @@
+{
+  "cnn": {
+    "combined_minus_output_accuracy": 0.006661732050333087,
+    "paired_group_bootstrap_95_interval": [
+      -0.002971823439407414,
+      0.016987649063498013
+    ]
+  },
+  "lstm": {
+    "combined_minus_output_accuracy": 0.0,
+    "paired_group_bootstrap_95_interval": [
+      -0.016540370130742093,
+      0.017818366210626782
+    ]
+  }
+}

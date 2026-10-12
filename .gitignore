@@ -218,3 +218,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+.Rproj.user
+
+# Midterm source data and local generated artifacts
+data/raw/
+data/cleaned/*.parquet
+data/regenerated/
+results/checkpoints/
+results/reproduction/
+.Rhistory
+.RData
+Rplots.pdf

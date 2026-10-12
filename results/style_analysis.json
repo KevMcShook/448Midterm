@@ -1,0 +1,64 @@
+{
+  "description": {
+    "claude": {
+      "mean_response_words": 264.03933333333333,
+      "median_response_words": 214.0,
+      "mean_prompt_words": 70.665,
+      "bold_fraction": 0.5396666666666666,
+      "code_fence_fraction": 0.194,
+      "median_type_token_ratio": 0.628926609381603,
+      "is_code_fraction": 0.31633333333333336
+    },
+    "gemini": {
+      "mean_response_words": 790.371,
+      "median_response_words": 646.0,
+      "mean_prompt_words": 65.11133333333333,
+      "bold_fraction": 0.912,
+      "code_fence_fraction": 0.20633333333333334,
+      "median_type_token_ratio": 0.45711513400192644,
+      "is_code_fraction": 0.331
+    },
+    "qwen": {
+      "mean_response_words": 462.36533333333335,
+      "median_response_words": 433.5,
+      "mean_prompt_words": 63.154,
+      "bold_fraction": 0.9023333333333333,
+      "code_fence_fraction": 0.23833333333333334,
+      "median_type_token_ratio": 0.5453650680028632,
+      "is_code_fraction": 0.326
+    }
+  },
+  "style_features": [
+    "log_words",
+    "log_characters",
+    "type_token_ratio",
+    "lines_per_word",
+    "bold_markers_per_word",
+    "code_fences_per_word",
+    "headings_per_word",
+    "list_lines_per_word",
+    "exclamations_per_word",
+    "questions_per_word"
+  ],
+  "style_only_classifier": {
+    "accuracy": 0.7735011102886751,
+    "macro_f1": 0.7734470397490885
+  },
+  "length_only_classifier": {
+    "accuracy": 0.5284974093264249,
+    "macro_f1": 0.5058180765579102
+  },
+  "style_classifier_input": "Full responses; unlike neural models, these auxiliary classifiers see the full response length.",
+  "formatting_ablation": {
+    "cnn": {
+      "accuracy": 0.37305699481865284,
+      "macro_f1": 0.25660724391624223
+    },
+    "lstm": {
+      "accuracy": 0.3908216136195411,
+      "macro_f1": 0.2895161482429522
+    }
+  },
+  "ablation_method": "Remove punctuation and newline tokens from the already-retained 256-token response window; evaluate unchanged output-only models. No retraining or test-set tuning.",
+  "ablation_limitation": "This changes token positions, sequence length, and input distribution; it is a robustness diagnostic, not proof that formatting alone causes the original accuracy."
+}

@@ -1,0 +1,10 @@
+{
+  "data_hash_matches": true,
+  "six_experiments_complete": true,
+  "no_group_prompt_response_session_overlap": true,
+  "prediction_ids_and_true_labels_match": true,
+  "probabilities_and_predictions_agree": true,
+  "metrics_recomputed_successfully": true,
+  "validation_checkpoint_selection_verified": true,
+  "test_examples": 1351
+}

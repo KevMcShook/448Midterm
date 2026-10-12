@@ -1,0 +1,5 @@
+{
+  "note": "Training read the Zstandard file. The distributed gzip file was independently verified value-identical, including row order. config.json records the distributed data file hash.",
+  "training_file_sha256": "4a59cf2518a6bbfac084e29aafc6d79474414ffd1e2659e84dec025ba9083f90",
+  "distributed_file_sha256": "b05f68e3551837acdcdb217079beb6e8835f856ea8da754dd230ce71da5458d9"
+}
